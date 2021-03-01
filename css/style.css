@@ -1,0 +1,255 @@
+html,body {
+  font-size:3.125vw;
+  margin: 0;
+  font-family:'Sora', sans-serif;
+ 
+}
+
+
+/* nav */
+
+.nav-grid {
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr ;
+  background-color:#12293D;
+  border:0;
+  padding:1.3rem;
+}
+.nav {
+  width:100%;
+  display:flex;
+  height: auto;
+  
+}
+.links {
+  padding-top:8px;
+  
+}
+#brand {
+ 
+  letter-spacing: 0.2rem;
+  font-family: 'Sora', sans-serif;
+
+}
+
+#pad-link{
+  padding-left:1rem;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  line-height: 140%;
+  font-size: 1.4rem;
+}
+
+
+/* Home */
+
+.home {
+  background: linear-gradient(180deg, #12293D 45.5%, #440712 101.5%);
+  height: 90vh;
+  box-sizing: border-box;
+}
+
+.text{
+  padding-top:15vh;
+  color:white;
+  text-align: center;
+}
+
+#title{
+  font-size: 3rem;
+  
+  font-family: 'Sora', sans-serif;
+  letter-spacing: 0.7rem;
+  line-height: 1em;
+  line-height: 160%;
+}
+
+#sm-text {
+  font-size:1.5rem;
+  letter-spacing: 0.3rem;
+}
+
+.text-second {
+  text-align: center;
+  margin-top: 2rem;
+}
+#btn {
+  font-size:1.6rem;
+  padding:1rem;
+  border-radius:15px;
+  background-color:rgba(66, 167, 255, 0.2);
+
+}
+
+/* About */
+.about-container {
+  padding-top:5vh;
+  height:60vh;
+  text-align:left;
+  background-color:white;
+  font-size:1.4rem;
+  color:#12293D;
+  
+}
+
+#about {
+
+  letter-spacing: 0.1rem;
+  padding-left:2vw;
+}
+
+#about-text {
+  padding:10vw 3vw 10vw 10vw;
+  text-align:right;
+  letter-spacing: 0.1rem;
+  word-spacing:2px;
+
+}
+
+/* Projects */
+.projects {
+  
+  
+  background-color:RGBA(90,102,132,0.1);
+  max-width:100%;
+  
+ 
+}
+.cards {
+  
+  color:#12293D;
+  font-size:1.2rem;
+  
+
+  
+}
+
+/* right cards */
+.card-right {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  
+  padding-bottom: 6vh;
+  text-align:left;
+  height: 35vh;
+  letter-spacing: 0.1rem;
+}
+.card-img-right {
+  height: auto;
+  width:90%;
+  margin-left:1rem;
+  border-radius: 10px;
+}
+
+
+.card-right-two {
+  padding-top:10vh;
+}
+.card-right-one {
+  padding-left:2vw;
+}
+
+
+
+
+/* left cards */
+
+.card-left{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  padding-bottom: 6vh;
+  text-align:right;
+  height: 35vh;
+  letter-spacing: 0.1rem;
+  
+}
+
+.card-img-left {
+  height: auto;
+  width:90%;
+  margin-right:1rem;
+  border-radius: 10px;
+  
+}
+
+.card-left-one {
+  padding-top:10vh;
+ 
+}
+.card-left-two {
+  padding-right:2vw;
+ 
+}
+
+/* card title */
+.project-title{
+  text-align:center;
+  font-size:1.6rem;
+}
+
+
+/* card buttons */
+.buttons  {
+  text-align:center;
+  padding-top:25px;
+  width:100%;
+  letter-spacing: 0rem;
+
+}
+
+.gHub {
+  background-color:#12293D;
+  border:1px solid #12293D;
+  padding:12px;
+  font-size:1.2rem;
+  border-radius: 12px;
+}
+
+.live{
+  background-color:#12293D;
+  border:1px solid #12293D;
+  padding:12px;
+  margin-left:5px;
+  font-size:1.2rem;
+  border-radius: 12px;
+}
+
+
+/* Contact */
+
+.contact {
+  height:90vh;
+  padding-top:10vh;
+  color:white;
+  background: linear-gradient(0.77deg, #12293D 70.91%, #440712 99.32%);
+ 
+}
+
+.contact-inside {
+  padding:60px 10px 10px 10px;
+}
+
+
+.contact-title {
+  font-size:1.1rem;
+  letter-spacing: 0.3rem;
+}
+
+.contact-text{
+  text-align: right;
+  font-size:1rem;
+  font-size:1.40rem;
+  padding:5vh 0 6vh 0;
+  letter-spacing: 0.2rem;
+}
+
+.icons{
+  text-align: right;
+  font-size:1rem;
+ 
+  padding:5vh 0 6vh 0 ;
+}
