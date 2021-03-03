@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
 </head>
 
@@ -32,13 +33,13 @@
 
         </div>
         <div class="text-second">
-            <a id="btn" href="#">My projects</a>
+            <a id="btn" href="#projects">My Projects</a>
         </div>
     </div>
 
     <div class="about" id="about">
         <div class="about-container">
-            <h2 id="about">About me</h2>
+            <h2 id="about-title">About me</h2>
             <p id="about-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia soluta neque porro
                 vitae voluptatibus voluptate excepturi, perspiciatis, totam dignissimos doloribus delectus amet tempore
                 repellat, eius natus enim eum? Similique, tempora.</p>
@@ -51,13 +52,14 @@
     <div class="projects" id="projects">
         <div class="cards">
             <!-- right one -->
-            <div class="card-right">
+            <div class="card-right" id="first">
                 <div class="card-right-one">
-                    <h3 class="project-title">Title</h3>
+                    <h3 class="project-title-right">Title</h3>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="buttons">
-                        <a class="gHub" href="#">Github</a>
-                        <a class="live" href="#">Live</a>
+                        <a class="project-btn" id="gHub-right" href="#">Github</a>
+                        <a class="project-btn" id="live-right" href="#">Live</a>
+                       
                     </div>
                 </div>
 
@@ -68,17 +70,17 @@
 
 
             <!-- left one -->
-            <div class="card-left">
+            <div class="card-left" id="second">
                 <div class="card-left-one">
                     <img class="card-img-left" src="Poster.jpg" alt="project-img">
                 </div>
 
                 <div class="card-left-two">
-                    <h3 class="project-title">Title</h3>
+                    <h3 class="project-title-left">Title</h3>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <div class="buttons">
-                        <a class="gHub" href="#">Github</a>
-                        <a class="live" href="#">Live</a>
+                    <div class="buttons" id="left">
+                        <a class="project-btn" id="gHub" href="#">Github</a>
+                        <a class="project-btn" id="live" href="#">Live</a>
                     </div>
                 </div>
 
@@ -86,13 +88,13 @@
             </div>
 
             <!-- right two -->
-            <div class="card-right">
-                <div class="card-right-one">
-                    <h3 class="project-title">Title</h3>
+            <div class="card-right" id="third">
+                <div class="card-right-one" >
+                    <h3 class="project-title-right">Title</h3>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <div class="buttons">
-                        <a class="gHub" href="#">Github</a>
-                        <a class="live" href="#">Live</a>
+                    <div class="buttons" >
+                        <a class="project-btn btn-third" id="gHub-right" href="#">Github</a>
+                        <a class="project-btn btn-third" id="live-right" href="#">Live</a>
                     </div>
                 </div>
 
@@ -104,16 +106,16 @@
 
 
             <!-- left two -->
-            <div class="card-left">
+            <div class="card-left" id="fourth">
                 <div class="card-left-one">
                     <img class="card-img-left" src="Poster.jpg" alt="project-img">
                 </div>
                 <div class="card-left-two">
-                    <h3 class="project-title">Title</h3>
+                    <h3 class="project-title-left">Title</h3>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <div class="buttons">
-                        <a class="gHub" href="#">Github</a>
-                        <a class="live" href="#">Live</a>
+                    <div class="buttons" id="left">
+                        <a class="project-btn btn-fourth" id="gHub" href="#">Github</a>
+                        <a class="project-btn btn-fourth" id="live" href="#">Live</a>
                     </div>
                 </div>
 
@@ -124,20 +126,19 @@
     </div>
 
 
-    <div class="contact" id="contact">
+    <div id="contact" class="contact" >
         <div class="contact-inside">
             <div class="contact-title">
-                <h1>Send me an email</h1>
+                <h1>Get in touch</h1>
             </div>
             <div class="contact-text">
                 <p>Jacob.saini60@gmail.com</p>
+                <div class="icons">
+                    <a href="https://github.com/Gummy21" class="icon"> <i class="fa fa-github fa-3x"> </i> </a>
+                    <a href="https://www.linkedin.com/in/jacob-saini-64811a185/" ><i class="fa fa-linkedin fa-3x"> </i> </a>
+                </div>
             </div>
-            <div class="contact-title">
-                <h1>Or check out my links </h1>
-            </div>
-            <div class="icons">
-
-            </div>
+            
         </div>
     </div>
 
