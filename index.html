@@ -7,141 +7,235 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/dff1899311.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
+    <script src="./assets/aos.js"></script>
+  
+    <link rel="stylesheet" href="./css/aos.css" />
+
+
+
 </head>
 
 <body>
-    <div class="nav-grid">
-        <div id="brand">
-            <a href="#brand">Jacob Saini</a>
-        </div>
-        <div class="nav">
+    <main>
+         <!-- Nav -->
+         <nav class="nav">
             <div class="links">
-                <a href="#about" id="pad-link">About</a>
-                <a href="#projects" id="pad-link">Projects</a>
-                <a href="#contact" id="pad-link">Contact</a>
+                <a href="#home">Home</a>
+                <a href="#about" class=" about-nav">About</a>
+                <a href="#projects" class=" projects-nav">Projects</a>
+                <a href="#contact" class="contact-nav">Contact</a>
             </div>
-        </div>
+        </nav>
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="home-text">
+                <div class="text">
+                    <h1>Jacob <br /> Saini</h1>
+                    <p>Full Stack Developer</h4>
+                </div>
+                <div class="text-second">
+                    <a id="btn" href="#projects">My Projects</a>
+                </div>
+            </div>
+            <div class="animation">Animation</div>
+        </section>
 
-    </div>
+       
 
-    <div class="home">
-        <div class="text">
-            <h1 id="title">Jacob <br /> Saini</h1>
-            <p id="sm-text">Full Stack Developer</h4>
+        <!-- About -->
+        <section class="about" id="about">
+            <article class="about-container">
+                <h2 data-aos="fade-right">About me</h2>
+                <p data-aos="fade-left">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Mollitia soluta neque porro
+                    vitae voluptatibus voluptate excepturi, perspiciatis,
+                    
+                    <br><br>totam dignissimos doloribus delectus amet
+                    tempore
+                    repellat, eius natus enim eum? Similique, tempora.</p>
+            </article>
+            <article class="skills">
 
-        </div>
-        <div class="text-second">
-            <a id="btn" href="#projects">My Projects</a>
-        </div>
-    </div>
+                <div class="skill">
+                    <img src="Poster.jpg">
+                    <div class="skill-text">
+                        <h1>Back-end</h1>
+                         <p>Languages/Tools</p>
+                        <ul>
+                            <li>Python</li>
+                            <li>MySql</li>
+                            <li>MongoDB</li>
+                            <li>NodeJS</li>
+                            <li>REST</li>
+                        </ul>
+                    </div>       
+                </div>
 
-    <div class="about" id="about">
-        <div class="about-container">
-            <h2 id="about-title">About me</h2>
-            <p id="about-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia soluta neque porro
-                vitae voluptatibus voluptate excepturi, perspiciatis, totam dignissimos doloribus delectus amet tempore
-                repellat, eius natus enim eum? Similique, tempora.</p>
-        </div>
-    </div>
+                <div class="skill">
+                    <img src="Poster.jpg">
+                    <div class="skill-text">
+                        <h1>Front-end</h1>
+                        <p>Languages/Frameworks</p>
+                        <ul>
+                            
+                            <li>Angular</li>
+                            <li>React</li>
+                            <li>Html/Css</li>
+                            <li>Javascript/Typescript</li>
+                        </ul>
+                        <p>Design Tools</p>  
+                        <ul>
+                            <li>Figma</li>
+                        </ul>
+                    </div>           
+                </div>
+                <div class="skill">
+                    <img src="Poster.jpg">
+                    <div class="skill-text">
+                        <h1> Dev-Ops</h1>
+                        <p>Tools</p>
+                        <ul>
+                            <li>Git</li>
+                            <li>AWS</li>
+                            <li>Docker</li>
+                        </ul> 
+                    </div> 
+                </div>
+               
+            </article>
+        </section>
 
 
 
+        <!-- Projects -->
+        <section class="projects" id="projects">
+            <div class="project-title">
+                <h1>My Projects</h1>
+            </div>
 
-    <div class="projects" id="projects">
-        <div class="cards">
-            <!-- right one -->
-            <div class="card-right" id="first">
-                <div class="card-right-one">
-                    <h3 class="project-title-right">Title</h3>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <div class="buttons">
-                        <a class="project-btn" id="gHub-right" href="#">Github</a>
-                        <a class="project-btn" id="live-right" href="#">Live</a>
+                <!-- One -->
+                <article class="card" id="last" data-aos="fade-up">
+                    <div class="card-top">
+                        <h3>Title</h3>
+                    </div>
+                    <div class="card-bottom">
+                        <h3>Title</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iure quaerat delectus eaque
+                            dolor
+                            eius atque, saepe amet, molestias perspiciatis quam unde voluptatem, earum officiis
+                            architecto
+                            veritatis optio blanditiis debitis.
+                        </p>
+
+                        <div class="buttons">
+                            <a id="github-btn" href="#">Github<i class="fa fa-github fa-1x"></i> </a>
+                            <a id="live" href="#"> See Live <i class="fas fa-laptop-code fa-1x"></i></a>
+                        </div>
+
                        
                     </div>
-                </div>
-
-                <div class="card-right-two">
-                    <img class="card-img-right" src="Poster.jpg" alt="project-img">
-                </div>
-            </div>
-
-
-            <!-- left one -->
-            <div class="card-left" id="second">
-                <div class="card-left-one">
-                    <img class="card-img-left" src="Poster.jpg" alt="project-img">
-                </div>
-
-                <div class="card-left-two">
-                    <h3 class="project-title-left">Title</h3>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <div class="buttons" id="left">
-                        <a class="project-btn" id="gHub" href="#">Github</a>
-                        <a class="project-btn" id="live" href="#">Live</a>
+                    <div class="tags">
+                        <p>NodeJS</p>
+                        <p>Angular</p>
+                        <p>Typescript</p>
+                        <p>Express</p>
+                        <p>MySql</p>
                     </div>
-                </div>
-
-
-            </div>
-
-            <!-- right two -->
-            <div class="card-right" id="third">
-                <div class="card-right-one" >
-                    <h3 class="project-title-right">Title</h3>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <div class="buttons" >
-                        <a class="project-btn btn-third" id="gHub-right" href="#">Github</a>
-                        <a class="project-btn btn-third" id="live-right" href="#">Live</a>
+                    
+                </article>
+                    
+           
+            
+                <!-- Two -->
+                <article class="card" id="last" data-aos="fade-up">
+                    <div class="card-top">
+                        <h3>Title</h3>
                     </div>
-                </div>
+                    <div class="card-bottom">
+                        <h3>Title</h3>
 
-                <div class="card-right-two">
-                    <img class="card-img-right" src="Poster.jpg" alt="project-img">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iure quaerat delectus eaque
+                            dolor
+                            eius atque, saepe amet, molestias perspiciatis quam unde voluptatem, earum officiis
+                            architecto
+                            veritatis optio blanditiis debitis.
+                        </p>
 
-                </div>
-            </div>
+                        <div class="buttons">
+                            <a id="github-btn" href="#">Github<i class="fa fa-github fa-1x"></i> </a>
+                            <a id="live" href="#"> See Live <i class="fas fa-laptop-code fa-1x"></i></a>
+                        </div>
 
-
-            <!-- left two -->
-            <div class="card-left" id="fourth">
-                <div class="card-left-one">
-                    <img class="card-img-left" src="Poster.jpg" alt="project-img">
-                </div>
-                <div class="card-left-two">
-                    <h3 class="project-title-left">Title</h3>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <div class="buttons" id="left">
-                        <a class="project-btn btn-fourth" id="gHub" href="#">Github</a>
-                        <a class="project-btn btn-fourth" id="live" href="#">Live</a>
+                        
                     </div>
-                </div>
+                    
+                    <div class="tags">
+                        <p>NodeJS</p>
+                        <p>Angular</p>
+                        <p>Typescript</p>
+                        <p>Express</p>
+                        <p>MySql</p>
+                    </div>
+                </article>
+                
+             
 
+                <!-- Three -->
+                <article class="card" id="last" data-aos="fade-up">
+                    <div class="card-top">
+                        <h3>Title</h3>
+                    </div>
+                    <div class="card-bottom last">
+                        <h3>Title</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iure quaerat delectus eaque
+                            dolor
+                            eius atque, saepe amet, molestias perspiciatis quam unde voluptatem, earum officiis
+                            architecto
+                            veritatis optio blanditiis debitis.
+                        </p>
 
-            </div>
-        </div>
+                        <div class="buttons">
+                            <a id="github-btn" href="#">Github<i class="fa fa-github fa-1x"></i> </a>
+                            <a id="live" href="#"> See Live <i class="fas fa-laptop-code fa-1x"></i></a>
+                        </div>
 
-    </div>
+                        
+                    </div>
+                    <div class="tags">
+                        <p>NodeJS</p>
+                        <p>Angular</p>
+                        <p>Typescript</p>
+                        <p>Express</p>
+                        <p>MySql</p>
+                    </div>
+                </article>
+          
+        </section>
+    </main>
 
-
-    <div id="contact" class="contact" >
-        <div class="contact-inside">
-            <div class="contact-title">
+    <!-- Contact -->
+    <footer class="contact">
+            <div class="contact-title" id="contact" data-aos="fade-right">
                 <h1>Get in touch</h1>
             </div>
-            <div class="contact-text">
+            <div class="contact-text" data-aos="fade-left">
                 <p>Jacob.saini60@gmail.com</p>
                 <div class="icons">
                     <a href="https://github.com/Gummy21" class="icon"> <i class="fa fa-github fa-3x"> </i> </a>
-                    <a href="https://www.linkedin.com/in/jacob-saini-64811a185/" ><i class="fa fa-linkedin fa-3x"> </i> </a>
+                    <a href="https://www.linkedin.com/in/jacob-saini-64811a185/"><i class="fa fa-linkedin fa-3x"> </i>
+                    </a>
                 </div>
-            </div>
-            
         </div>
-    </div>
+    </footer>
 
+
+    <script src="./assests/parallax.min.js"></script>
+    <script src="./assests/script.js"></script>
 </body>
 
 </html>
