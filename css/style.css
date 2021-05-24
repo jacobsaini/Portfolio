@@ -89,7 +89,9 @@ html,body {
   clip-path: polygon(0% 0%, 0 94%, 100% 88%, 100% 0%);
 }
 
-
+#animation {
+  display:none;
+}
 
 .text{
   padding-top:20%;
@@ -123,7 +125,7 @@ html,body {
   color:white;
 }
 
-.animation{
+#animation{
   width:70%;
 }
 
@@ -177,9 +179,11 @@ html,body {
   margin:10% auto 0 auto;
   flex-direction: column;
   padding-bottom:5%;
+  
 }
 
 .skill {
+  width:100%;
   display: flex;
   flex-direction: column;
   padding:5% 0;
@@ -189,8 +193,8 @@ html,body {
 .skill > img {
   background-size:cover;
   background-repeat:no-repeat;
-  width:60%;
-  height:auto;
+  width:40vw;
+  height:20vh;
   margin:0 auto;
 }
 
@@ -390,10 +394,19 @@ html,body {
     display:flex;
     flex-direction: row;
     align-items: center;
-    padding-bottom: 25%;
+    padding-bottom: 20%;
+  }
+  #animation {
+    display:block;
+   
+    
+  }
+
+  .vanta-canvas {
+   position:relative !important;
   }
   .home-text {
-    padding:5% 0 0 5%;
+    padding:0% 0 0 5%;
     
   }
 .about {
@@ -418,7 +431,10 @@ html,body {
   .skills {
     flex-direction: row;
     width:90%;
-  }  
+  }
+  .skill {
+    width:33%;
+  }
   .skill img {
     width:80%
   }
@@ -494,6 +510,7 @@ html,body {
 
   .home {
     height:100%;
+    flex-direction: row;
   }
   .project-title {
     font-size:1.5em;
@@ -507,7 +524,34 @@ html,body {
     margin-bottom:0;
     height:50vh;
   }
+  .skills {
+    flex-direction: row;
+    width:70%;
+    padding-bottom:0;
+  }
+  .skill {
+    border-left:1px solid #E1DDDD;
+  }
+  .card-bottom {
+    display: flex;
+    flex-direction: column;
 
+  }
+
+  .buttons{
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  
+  }
+  .buttons a {
+    width:25%;
+  }
+ 
   
 }
+
+
+
 

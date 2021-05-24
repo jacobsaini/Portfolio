@@ -10,6 +10,28 @@ AOS.init({
     startEvent: 'DOMContentLoaded', 
 });
 
+//Vanta
+
+
+
+  if (!/Android|webOS|iPhone|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+    VANTA.NET({
+        el: "#animation",
+        mouseControls: true,
+        touchControls: false,
+        gyroControls: false,
+        minHeight: 500.00,
+        minWidth: 600.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0xd9d9d9,
+        backgroundColor: 0x12293d,
+        points: 10.00,
+        maxDistance: 10.00,
+        spacing: 18.00
+      })
+}
+
 
 
 const cardBottom = document.getElementsByClassName("card-bottom");

@@ -7,14 +7,10 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <script src="https://kit.fontawesome.com/dff1899311.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dff1899311.js" crossorigin="anonymous"></script>
     <script src="./assets/aos.js"></script>
-  
     <link rel="stylesheet" href="./css/aos.css" />
-
-
-
 </head>
 
 <body>
@@ -39,7 +35,9 @@
                     <a id="btn" href="#projects">My Projects</a>
                 </div>
             </div>
-            <div class="animation">Animation</div>
+            <div id="animation">
+
+            </div>
         </section>
 
        
@@ -58,9 +56,10 @@
             </article>
             <article class="skills">
 
-                <div class="skill">
-                    <img src="Poster.jpg">
+                <div class="skill" data-aos="fade-up">
+                    <img src="./assets/img/undraw_server_cluster_jwwq (1).svg">
                     <div class="skill-text">
+                        
                         <h1>Back-end</h1>
                          <p>Languages/Tools</p>
                         <ul>
@@ -73,8 +72,8 @@
                     </div>       
                 </div>
 
-                <div class="skill">
-                    <img src="Poster.jpg">
+                <div class="skill"  data-aos="fade-down">
+                    <img src="./assets/img/undraw_mobile_images_rc0q.svg">
                     <div class="skill-text">
                         <h1>Front-end</h1>
                         <p>Languages/Frameworks</p>
@@ -91,8 +90,8 @@
                         </ul>
                     </div>           
                 </div>
-                <div class="skill">
-                    <img src="Poster.jpg">
+                <div class="skill" data-aos="fade-up">
+                    <img src="./assets/img/undraw_progressive_app_m9ms.svg">
                     <div class="skill-text">
                         <h1> Dev-Ops</h1>
                         <p>Tools</p>
@@ -233,9 +232,11 @@
         </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.net.min.js"></script>
+    <script src="./assets/script.js"></script>
 
-    <script src="./assests/parallax.min.js"></script>
-    <script src="./assests/script.js"></script>
+
 </body>
 
 </html>
