@@ -4,11 +4,11 @@ app = express();
 
 
 
-app.use(express.static('index.html'))
+app.use(express.static(__dirname))
 
 
 app.get("/", function(req,res){
-    res.sendFile(path.join('index.html'))
+    res.sendFile(path.join(__dirname + '/index.html'))
 });
 
 app.listen(process.env.PORT || 8080);
