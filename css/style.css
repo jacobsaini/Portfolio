@@ -522,6 +522,14 @@ html,body {
     height:100%;
     flex-direction: row;
   }
+
+  #btn {
+    transition: background-color 0.5s ease;
+
+  }
+  #btn:hover {
+    background-color:#0d161f;
+  }
   .project-title {
     font-size:1.5em;
   }
@@ -552,6 +560,28 @@ html,body {
 
   }
 
+  #github-btn,#live {
+    transition: all 0.5s ease;
+    font-weight:700;
+  }
+  .icon > .fa-github,.fa-linkedin {
+    transition: all 0.4s ease;
+    
+  }
+  #github-btn:hover {
+    background-color:#041626;
+    color:white;
+  }
+  #live:hover {
+    background-color:white;
+    color:#12293D;
+  }
+  .icon > .fa-github:hover, .fa-linkedin:hover {
+    color: rgb(165, 8, 8);
+   
+  }
+
+
   .buttons{
     height:100%;
     display: flex;
@@ -566,6 +596,9 @@ html,body {
   .contact-text{
     font-size:2.4rem;
   }
+
+
+
 }
 
 
