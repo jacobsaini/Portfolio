@@ -554,6 +554,9 @@ html,body {
     width:70%;
     padding-bottom:0;
   }
+  .skill:nth-of-type(1){
+    border:none;
+  }
   .skill {
     border-left:1px solid #E1DDDD;
   }
