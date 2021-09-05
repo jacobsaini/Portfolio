@@ -273,9 +273,12 @@ html,body {
 }
 
 #firstimg {
-  background-image: url('../assets/img/Judo.PNG');
+  background-image: url('../assets/img/Volme.PNG');
 }
 #secondimg {
+  background-image: url('../assets/img/Judo.PNG');
+}
+#thirdimg {
   background-image: url('../assets/img/Refinder.PNG');
 }
 .card-top h3 {
